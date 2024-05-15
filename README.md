@@ -14,3 +14,8 @@ Ao criar um registro, a coluna de controle é atualizada para 'Sim' e, ao se dep
 Caso haja falha no código, basta executá-lo novamente para voltar a criação dos registros de onde parou.
 
 É recomendado fazer um backup da fonte de dados, pois há a possibilidade do arquivo ser corrompido devido à alta taxa de atualização, ou desativar o antivirus para evitar conflitos.
+
+! A interação com os campos de formulário varia de acordo com seu tipo. Nesse projeto, temos:
+- Coluna A, B, C, E, F, I: seleção única
+- Coluna D, G e J: texto
+- Coluna H: data e hora
